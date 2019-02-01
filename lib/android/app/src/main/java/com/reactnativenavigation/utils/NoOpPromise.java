@@ -4,7 +4,7 @@ import com.facebook.react.bridge.Promise;
 
 import javax.annotation.Nullable;
 
-public class NoOpPromise implements Promise {
+public abstract class NoOpPromise implements Promise {
     @Override
     public void resolve(@Nullable Object value) {
 
